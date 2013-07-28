@@ -1,0 +1,30 @@
+                    U-14
+ Name       Pin    A10     A10    Pin    Name
+             -------------------------
+LCD0-D0      | 1   PD01             2|    GND
+LCD0-D2      | 3   PD02    PD01     4|    LCD0-D1
+LCD0-D4      | 5   PD04    PD03     6|    LCD0-D3
+LCD0-D6      | 7   PD06    PD05     8|    LCD0-D5
+GND          | 9           PD07     0|    LCD0-D7
+LCD0-D9      | 1   PD09    PD08     2|    LCD0-D8
+LCD0-D11     |13   PD11    PD010   14|    LCD0-D10
+LCD0-D13     |15   PD13    PD012   16|    LCD0-D12
+LCD0-D15     |17   PD15    PD014   18|    LCD0-D14
+LCD0-D16     |19   PD16            10|    GND
+LCD0-D18     |21   PD18    PD17    22|    LCD0-D17
+LCD0-D20     |23   PD20    PD19    24|    LCD0-D19
+LCD0-D22     |25   PD22    PD21    26|    LCD0-D21
+LCD0-VSYNC   |27   PD27    PD23    28|    LCD0-D23
+LCD0-CLK     |29   PD24    PD26    30|    LCD0-HSYNC
+PWM0         |31   PD00    PD25    32|    LCD0-DE
+Y1           |33   PD00    PD00    34|    X1
+Y2           |35   PD00    PD00    36|    X2
+LCD0-BL-EN   |37   PD00    PD00    38|    GND
+LCD0-SDA     |39   PD00    PD00    40|    PIO1
+SPDIF        |41   PD00    PD00    42|    GND
+VCC5V        |43   PD00    PD00    44|    ??
+SPI0-CS      |45   PD00    PD00    46|    SPI-MOSI
+SPI0-CLK     |47   PD00    PD00    48|    SPI-MISO
+             -------------------------
+
+
